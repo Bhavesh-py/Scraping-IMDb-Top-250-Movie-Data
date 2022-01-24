@@ -15,5 +15,5 @@ It scrapes the following data from the website and writes in a text file in the 
 * Worldwide Gross
 * Awards
 
-Libraries Used: BeautifulSoup (bs4), Requests
-Concepts Applied: Web Scraping, Concurrency, File Handling.
+**Libraries Used:** BeautifulSoup (bs4), Requests <br>
+**Concepts Applied:** Web Scraping, Concurrency, File Handling.
