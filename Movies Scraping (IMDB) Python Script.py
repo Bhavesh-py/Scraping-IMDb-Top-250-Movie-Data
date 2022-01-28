@@ -18,7 +18,7 @@ def Get_Movie_Data(movie):
     #EXTRACTIING REQUIRED DATA
     rating = soup2.find("span", class_ = "AggregateRatingButton__RatingScore-sc-1ll29m0-1 iTLWoV").text
     genre = soup2.find("span", class_ = "ipc-chip__text").text
-    desc = soup2.find("span", class_ = "GenresAndPlot__TextContainerBreakpointL-cum89p-1 gwuUFD").text
+    desc = soup2.find("span", class_ = "GenresAndPlot__TextContainerBreakpointXS_TO_M-sc-cum89p-0 kHlJyu").text
     director = soup2.find("a", class_ = "ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link").text
     nominations = soup2.find("span", class_ = "ipc-metadata-list-item__list-content-item").text
     language = soup2.find("li", {"class": "ipc-metadata-list__item", "data-testid": "title-details-languages"}).a.text
